@@ -1,0 +1,16 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    "styled-name",
+    "transform-runtime",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "containers": "./containers",
+        "components": "/components",
+        "theme": "/theme",
+        "config": "/config"
+      }
+    }]
+  ]
+}
